@@ -1,0 +1,3 @@
+http://ip:port
+http://username:password@ip:port
+# use 100% working proxy 
