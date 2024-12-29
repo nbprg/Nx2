@@ -1,6 +1,7 @@
 from flask import Flask, request
 import requests
 import os,sys,random
+import subprocess
 
 
 key = ''.join(random.choices('0123456789abcdefghijklmnopqrstuvwxyz', k=20))
@@ -110,13 +111,14 @@ template = """
 @app.route('/reserve_token')
 def reserve_token():
     token = request.args.get('token')
-    cont = (
-    """curl -X GET "https://cryptohubnp.pythonanywhere.com/save_captcha" \
-    -H "Content-Type: application/json" \
-    -d '{"username": "%s", "token": "%s"}'"""
-    % (key, token)
-    )
-    os.system(cont)
+    cont = [
+    "curl",
+    "-X", "GET",
+    "https://cryptohubnp.pythonanywhere.com/save_captcha",
+    "-H", "Content-Type: application/json",
+    "-d", f'{{"username": "{key}", "token": "{token}"}}'
+    ]
+    subprocess.run(cont)
     return 'ok'
 @app.route('/')
 def webpage():
