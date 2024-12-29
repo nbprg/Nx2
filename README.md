@@ -22,6 +22,7 @@ python app.py
 - use : `http://localhost:port` (working) ✅
 
 - now run script, you got an api key form `app.py`
+- open `proxy.txt` by `nano proxy.txt` & save your proxy
 ```
 python script.py
 ```
