@@ -3,7 +3,7 @@
 
 ## command 
 ```
-https://github.com/nbprg/np_reff_v2
+git clone https://github.com/nbprg/np_reff_v2
 ```
 ```
 cd np_reff_v2
