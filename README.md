@@ -14,7 +14,9 @@ git pull
 - `app.py` for captcha & thats like a captcha service api
 - `script.py` its main reff. script.
 - note: you can share your api key to your friend 🙂
-
+```
+pip install -r
+```
 ```
 python app.py
 ```
