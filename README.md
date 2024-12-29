@@ -31,4 +31,5 @@ python script.py
 
 ## Support Me 
 - Ton & Ton(usdt) : UQAwjEnyMMcj-UsoZ-GAvPBVyOMJPzEXSzsgmw1ysINrn8r7
-- Binance : 
+- Binance : Scan It 👇
+<img src="https://raw.githubusercontent.com/nbprg/web/refs/heads/root/IMG_20241229_182230.png" alt="Image Description" width="500">
