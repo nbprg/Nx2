@@ -15,7 +15,7 @@ git pull
 - `script.py` its main reff. script.
 - note: you can share your api key to your friend 🙂
 ```
-pip install -r
+pip install -r requirements.txt
 ```
 ```
 python app.py
