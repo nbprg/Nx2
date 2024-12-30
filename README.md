@@ -28,9 +28,13 @@ python app.py
 ```
 python script.py
 ```
-## Platform to contact me
+## Platform to join with us
 - Telegram channel : @cryp2xyz
 - YouTube channel  : @nbprg
+
+## Contact with me 
+- Email    : novbh091@gmail.com
+- Telegram : @TataCuto
 
 ## Support My work
 - Ton & Ton(usdt) : UQAwjEnyMMcj-UsoZ-GAvPBVyOMJPzEXSzsgmw1ysINrn8r7
