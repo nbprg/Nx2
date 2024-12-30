@@ -28,11 +28,11 @@ python app.py
 ```
 python script.py
 ```
-## Platform to contact us
+## Platform to contact me
 - Telegram channel : @cryp2xyz
 - YouTube channel  : @nbprg
 
-## Support Me 
+## Support My work
 - Ton & Ton(usdt) : UQAwjEnyMMcj-UsoZ-GAvPBVyOMJPzEXSzsgmw1ysINrn8r7
 - Binance : Scan It 👇
 <img src="https://raw.githubusercontent.com/nbprg/web/refs/heads/root/IMG_20241229_182230.png" alt="Image Description" width="500">
